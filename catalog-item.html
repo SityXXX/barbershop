@@ -8,13 +8,13 @@
         <header class="page-header">
             <div class="container">
                 <div class="row">
-                    <nav>
-                        <ul class="main-menu">
+                    <nav class="main-menu">
+                        <ul>
                             <li><a href="#">Главная</a></li>
                             <li><a href="#">Информация</a></li>
                             <li><a href="#">Новости</a></li>
                             <li><a href="#">Прайс-лист</a></li>
-                            <li class="active"><a href="#">Магазин</a></li>
+                            <li class="active">Магазин</li>
                             <li><a href="#">Контакти</a></li>
                         </ul>
                     </nav>
@@ -26,83 +26,93 @@
         </header>
         <div class="content">
             <div class="container">
-                <h1>Набор для путешествий «Baxter of California»</h1>
-                <ul class="breadcrumbs">
-                    <li>Главная</li>
-                    <li>Магазин</li>
-                    <li>Средства для ухода</li>
-                    <li class="active">Набор для путешествий «Baxter of California»</li>
-                </ul>
+                <div class="active-page">
+                    <h1>Набор для путешествий «Baxter of California»</h1>
+                    <ul class="breadcrumbs">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Магазин</a></li>
+                        <li><a href="#">Средства для ухода</a></li>
+                        <li class="active">Набор для путешествий «Baxter of California»</li>
+                    </ul>
+                </div>
                 <main>
-                    <article class="product-page">
-                        <div class="row">
-                            <div class="product-images">
-                                <figure class="product-main-image">
+                    <div class="row product-page-row">
+                        <div class="product-images">
+                            <figure class="product-main-image">
+                                <a href="#">
                                     <img src="http://placehold.it/460x498" alt="Набор для путешествий «Baxter of California»">
+                                </a>
+                            </figure>
+                            <div class="row">
+                                <figure class="product-add-image">
+                                    <a href="#">
+                                        <img src="http://placehold.it/140x149" alt="Набор для путешествий «Baxter of California»">
+                                    </a>
                                 </figure>
-                                <div class="row">
-                                    <figure class="product-add-image">
+                                <figure class="product-add-image">
+                                    <a href="#">
                                         <img src="http://placehold.it/140x149" alt="Набор для путешествий «Baxter of California»">
-                                    </figure>
-                                    <figure class="product-add-image">
+                                    </a>
+                                </figure>
+                                <figure class="product-add-image selected">
+                                    <a href="#">
                                         <img src="http://placehold.it/140x149" alt="Набор для путешествий «Baxter of California»">
-                                    </figure>
-                                    <figure class="product-add-image selected">
-                                        <img src="http://placehold.it/140x149" alt="Набор для путешествий «Baxter of California»">
-                                    </figure>
-                                </div>
-                            </div>
-                            <div class="product-info">
-                                <section class="product-main-info">
-                                    <div class="row">
-                                        <p class="in-stock">Есть в наличии</p>
-                                        <p class="product-sku">Артикул: Dexter-ae</p>
-                                    </div>
-                                    <p class="produt-description">
-                                        Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке
-                                        находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха:
-                                        средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор
-                                        также может стать отличным подарком.
-                                    </p>
-                                </section>
-                                <span class="product-price">2900 руб.</span><a class="btn btn-buy" href="#">Купить</a>
-                                <section class="product-add-info">
-                                    <h3>В набор входят</h3>
-                                    <ul>
-                                        <li>Средство для умывания (50 мл)</li>
-                                        <li>Увлажняющий крем (50 мл)</li>
-                                        <li>Крем для бритья (50 мл)</li>
-                                        <li>Крем после бритья, шампунь (50 мл)</li>
-                                        <li>Удобная кожаная косметичка</li>
-                                    </ul>
-                                </section>
+                                    </a>
+                                </figure>
                             </div>
                         </div>
-                    </article>
+                        <div class="product-info">
+                            <div class="product-main-info">
+                                <div class="row in-stock-sku-row">
+                                    <p class="in-stock">Есть в наличии</p>
+                                    <p class="product-sku">Артикул: Dexter-ae</p>
+                                </div>
+                                <p class="produt-description">
+                                    Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке
+                                    находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха:
+                                    средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор
+                                    также может стать отличным подарком.
+                                </p>
+                            </div>
+                            <div class="product-buy-wrap">
+                                <span class="product-price">2900 руб.</span><a class="btn btn-buy" href="#">Купить</a>
+                            </div>
+                            <div class="product-add-info">
+                                <h3>В набор входят</h3>
+                                <ul class="product-add-info-list">
+                                    <li>Средство для умывания (50 мл)</li>
+                                    <li>Увлажняющий крем (50 мл)</li>
+                                    <li>Крем для бритья (50 мл)</li>
+                                    <li>Крем после бритья, шампунь (50 мл)</li>
+                                    <li>Удобная кожаная косметичка</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </main>
             </div>
         </div>
         <footer class="page-footer">
             <div class="container">
                 <div class="row">
-                    <section class="contacts">
-                        Барбершоп «Бородинский»<br>
-                        Адрес: г. Санет-Петербург, ул. Б. Конюшенная, д. 19/8
-                        <a href="#">Как на найти?</a><br>
-                        Телефон: +7 (495) 666-02-66
-                    </section>
-                    <section class="social">
+                    <div class="contacts">
+                        <p>Барбершоп «Бородинский»</p>
+                        <p>Адрес: г. Санет-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+                        <p><a href="#">Как на найти?</a></p>
+                        <p>Телефон: +7 (495) 666-02-66</p>
+                    </div>
+                    <div class="social">
                         <p>Давайте дружить!</p>
                         <ul class="soc">
                             <li><a class="icon icon-vk" href="#">Вконтакте</a></li>
                             <li><a class="icon icon-facebook" href="#">Facebook</a></li>
                             <li><a class="icon icon-instagram" href="#">Instagram</a></li>
                         </ul>
-                    </section>
-                    <section class="designed">
+                    </div>
+                    <div class="designed">
                         <p>Разработано:</p>
                         <a class="btn" href="#">HTMLAcademy.ru</a>
-                    </section>
+                    </div>
                 </div>
             </div>
         </footer>
