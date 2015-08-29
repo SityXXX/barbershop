@@ -28,11 +28,13 @@
             <div class="container">
                 <div class="active-page">
                     <h1>Средства для ухода</h1>
-                    <ul class="breadcrumbs">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">Магазин</a></li>
-                        <li class="active">Средства для ухода</li>
-                    </ul>
+                    <nav class="breadcrumbs">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Магазин</a></li>
+                            <li class="active">Средства для ухода</li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="row">
                     <aside class="left-side">
@@ -41,12 +43,12 @@
                                 <fieldset>
                                     <legend>Производители:</legend>
                                     <ul class="side-block-list">
-                                        <li><label><input type="checkbox" name="manufactures[]" value="Baxter of California" checked> Baxter of California</label></li>
-                                        <li><label><input type="checkbox" name="manufactures[]" value="Mr Natty"> Mr Natty</label></li>
-                                        <li><label><input type="checkbox" name="manufactures[]" value="Suavecito" checked> Suavecito</label></li>
-                                        <li><label><input type="checkbox" name="manufactures[]" value="Malin+Goetz"> Malin+Goetz</label></li>
-                                        <li><label><input type="checkbox" name="manufactures[]" value="Murray's"> Murray's</label></li>
-                                        <li><label><input type="checkbox" name="manufactures[]" value="American crew" checked> American crew</label></li>
+                                        <li><input type="checkbox" id="bac" name="manufactures[]" value="Baxter of California" checked><label for="bac">Baxter of California</label></li>
+                                        <li><input type="checkbox" id="mrn" name="manufactures[]" value="Mr Natty"><label for="mrn">Mr Natty</label></li>
+                                        <li><input type="checkbox" id="svt" name="manufactures[]" value="Suavecito" checked><label for="svt">Suavecito</label></li>
+                                        <li><input type="checkbox" id="mg" name="manufactures[]" value="Malin+Goetz"><label for="mg">Malin+Goetz</label></li>
+                                        <li><input type="checkbox" id="mrs" name="manufactures[]" value="Murray's"><label for="mrs">Murray's</label></li>
+                                        <li><input type="checkbox" id="ac" name="manufactures[]" value="American crew" checked><label for="ac">American crew</label></li>
                                     </ul>
                                 </fieldset>
                             </div>
